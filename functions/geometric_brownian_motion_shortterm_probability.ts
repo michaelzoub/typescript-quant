@@ -9,7 +9,7 @@ import { erf } from "mathjs";
  * @param annualDrift - Annualized expected log return (μ)
  * @returns Probability (0 to 1)
  */
-function probPriceGBM(
+export function probPriceGBM(
   currentPrice: number,
   targetPrice: number,
   timeInYears: number,
